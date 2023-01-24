@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="countdown">01:00</div>
+        <div class="buttons">
+            <button class="start">Start game!</button>
+            <button class="check disabled">Check result!</button>
+            <button class="new">New game!</button>
+        </div>
+        <div class="game">
+            <div class="left"></div>
+            <div class="right">
+                <div class="pieceRight" data-value="1"></div>
+                <div class="pieceRight" data-value="2"></div>
+                <div class="pieceRight" data-value="3"></div>
+                <div class="pieceRight" data-value="4"></div>
+                <div class="pieceRight" data-value="5"></div>
+                <div class="pieceRight" data-value="6"></div>
+                <div class="pieceRight" data-value="7"></div>
+                <div class="pieceRight" data-value="8"></div>
+                <div class="pieceRight" data-value="9"></div>
+                <div class="pieceRight" data-value="10"></div>
+                <div class="pieceRight" data-value="11"></div>
+                <div class="pieceRight" data-value="12"></div>
+                <div class="pieceRight" data-value="13"></div>
+                <div class="pieceRight" data-value="14"></div>
+                <div class="pieceRight" data-value="15"></div>
+                <div class="pieceRight" data-value="16"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modalCheck">
+        <div class="modalText">You still have time, you sure?</div>
+        <div class="modalButtons">
+            <button class="close">Close</button>
+            <button class="continue">Check</button>
+        </div>
+    </div>
+    <div class="modalLose">
+        <div class="modalTextLose">It's pity, but you lost</div>
+        <div class="modalButtons">
+            <button class="closeLose">Close</button>
+        </div>
+    </div>
+    <div class="modalWin">
+        <div class="modalTextWin">Woohoo, well done, you did it!</div>
+        <div class="modalButtons">
+            <button class="closeWin">Close</button>
+        </div>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
